@@ -1,0 +1,207 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Nader Zantout</title>
+
+  <meta name="author" content="Nader Zantout">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+
+<body>
+  <table
+    style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr style="padding:0px">
+                <td style="padding:2.5%;width:63%;vertical-align:middle">
+                  <p class="name" style="text-align: center;">
+                    Nader Zantout
+                  </p>
+                  <p>I am a first year Master's of Science in Robotics student at the <a
+                      href="https://www.ri.cmu.edu">Robotics Institute</a>,
+                    within the <a href="https://www.cs.cmu.edu/">School of Computer Science</a> at <a
+                      href="https://www.cmu.edu/">Carnegie Mellon University</a>.
+                    I am co-advised by <a href="https://frc.ri.cmu.edu/~zhangji/">Ji Zhang</a> and <a
+                      href="http://www.wangwenshan.com/">Wenshan Wang</a>.
+                    I am currently doing research in embodied AI and vision-and-language navigation and planning.
+                  </p>
+                  <p>
+                    I graduated from the <a href="https://www.aub.edu.lb/">American University of Beirut</a> with a B.Eng.
+                    in Electrical and Computer Engineering,
+                    where I have worked with <a href="https://www.aub.edu.lb/pages/profile.aspx?memberId=nd38">Naseem
+                      Daher</a> on
+                    <a href="https://github.com/AUBVRL/pothole-detection-avoidance-agv">pothole detection and avoidance
+                      for autonomous cars</a>, and with
+                    <a href="https://www.aub.edu.lb/pages/profile.aspx?memberId=ie05">Imad Elhajj</a> on assistive
+                    teleoperation.
+                  </p>
+                  <p style="text-align:center">
+                    <a href="mailto:nzantout@andrew.cmu.edu">Email</a> &nbsp;/&nbsp;
+                    <a href="data/NaderZantout-CV.pdf">CV</a> &nbsp;/&nbsp;
+                    <a href="https://github.com/nzantout">Github</a>
+                  </p>
+                </td>
+                <td style="padding:2.5%;width:40%;max-width:40%">
+                  <a href="images/NaderZantout.jpg"><img
+                      style="width:100%;max-width:100%;object-fit: cover; border-radius: 10%;" alt="profile photo"
+                      src="images/NaderZantout.jpg" class="hoverZoomLink"></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align: middle;">
+                  <h2>Research</h2>
+                  <p>
+                    I am interested in bridging 3D vision and language modalities
+                    to allow robots to intelligently reason about their environments
+                    and communicate with humans, and in bridging vision and control.
+                  </p>
+              </tr>
+            </tbody>
+          </table>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+
+              <tr onmouseout="pothole_stop()" onmouseover="pothole_start()">
+                <td style="padding:20px;width:33%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='pothole_image'>
+                      <video width=100% muted autoplay loop style="border-radius: 15px;">
+                        <source src="images/pothole_avoid.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <img src='images/pothole_avoid.png' width=100% style="border-radius: 15px;">
+                  </div>
+                  <script type="text/javascript">
+                    function pothole_start() {
+                      document.getElementById('pothole_image').style.opacity = "1";
+                    }
+
+                    function pothole_stop() {
+                      document.getElementById('pothole_image').style.opacity = "0";
+                    }
+                    pothole_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:67%;vertical-align:top">
+                  <p>
+                    <a href="https://github.com/AUBVRL/pothole-detection-avoidance-agv/tree/main">
+                      <span class="papertitle">An End-to-End Pothole Detection and Avoidance System for Autonomous
+                        Ground
+                        Vehicles</span>
+                    </a>
+                    <br>
+                    <strong>Nader Zantout*</strong>,
+                    Omar Chaaban*,
+                    Leen Daher*,
+                    Yara Ghaddar*,
+                    Daniel Asmar,
+                    Naseem Daher
+                  </p>
+                  <a href="https://github.com/AUBVRL/pothole-detection-avoidance-agv/tree/main">code</a>
+                </td>
+              </tr>
+
+              <tr onmouseout="autocomplete_stop()" onmouseover="autocomplete_start()">
+                <td style="padding:20px;width:33%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='autocomplete_image'>
+                      <video width=100% muted autoplay loop style="border-radius: 15px;">
+                        <source src="images/autocomplete.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <img src='images/autocomplete.png' width=100% style="border-radius: 15px;">
+                  </div>
+                  <script type="text/javascript">
+                    function autocomplete_start() {
+                      document.getElementById('autocomplete_image').style.opacity = "1";
+                    }
+
+                    function autocomplete_stop() {
+                      document.getElementById('autocomplete_image').style.opacity = "0";
+                    }
+                    autocomplete_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:67%;vertical-align:top">
+                  <p>
+                    <span class="papertitle">Autocomplete Teleoperation for Manipulators</span>
+                    <br>
+                    <strong>Nader Zantout</strong>,
+                    Marina Antoun,
+                    Mohammad Moudallal,
+                    Imad Elhajj
+                </td>
+              </tr>
+
+
+
+            </tbody>
+          </table>
+
+
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td>
+                  <h2>Projects</h2>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          
+          <div class="container">
+            <div class="projectbox">
+              <img src="images/surfacerecon.png" alt="Surface reconstruction" class="image" width="100%">
+              <p class="text">Surface reconstruction from monocular video using classical structure from motion techniques</p>
+            </div>
+            <div class="projectbox">
+              <img src="images/deepdeepblogger.png" alt="DeepDeepBlogger" class="image" width="100%">
+              <p class="text">DeepDeepBlogger: A research paper to scientific blogpost text-to-text style transfer transformer</p>
+            </div>
+            <div class="projectbox">
+              <img src="images/carcontroller.png" alt="Car control system" class="image" width="100%">
+              <p class="text">Longitudinal and lateral control system for autonomous electric car</p>
+            </div>
+            <div class="projectbox">
+              <img src="images/petdispenser.png" alt="Pet food dispenser" class="image" width="100%">
+              <p class="text">Arduino-based automatic pet food dispenser</p>
+          </div>
+
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:0px">
+                  <br>
+                  <p style="text-align:right;font-size:small;">
+                    Website template from <a href="https://github.com/jonbarron/jonbarron_website">this repo</a>.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+  </table>
+</body>
+
+</html>
