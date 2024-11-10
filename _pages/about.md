@@ -2,24 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: NaderZantout.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a first year Master's of Science in Robotics student at the [Robotics Institute](https://www.ri.cmu.edu), within the [School of Computer Science](https://www.cs.cmu.edu/) at [Carnegie Mellon University](https://www.cmu.edu/). I conduct research as part of the [Field Robotics Center](https://frc.ri.cmu.edu/) in collaboration with the [AirLab](https://theairlab.org/), co-advised by [Ji Zhang](https://frc.ri.cmu.edu/~zhangji/) and [Wenshan Wang](http://www.wangwenshan.com/). I am currently doing research in embodied AI and vision-and-language navigation and planning.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I graduated with high distinction from the [American University of Beirut](https://www.aub.edu.lb/) with a B.Eng. in Electrical and Computer Engineering, where I worked with [Naseem Daher](https://www.aub.edu.lb/pages/profile.aspx?memberId=nd38) on [pothole detection and avoidance for autonomous cars](https://github.com/AUBVRL/pothole-detection-avoidance-agv), and with [Imad Elhajj](https://www.aub.edu.lb/pages/profile.aspx?memberId=ie05) on assistive teleoperation.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
