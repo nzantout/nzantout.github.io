@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title: LLM-Generated Supervision for Egocentric Vision-based Legged Locomotion Policies
 description: with background image
 img: assets/img/12.jpg
 importance: 1

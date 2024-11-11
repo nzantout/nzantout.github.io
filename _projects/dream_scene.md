@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title: "DreamScene: Compositional and Object-Centric Text-to-3D Scene Generation"
 description: with background image
 img: assets/img/12.jpg
 importance: 1

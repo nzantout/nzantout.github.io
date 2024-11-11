@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 8
-description: an other project with a background image and giscus comments
-img: assets/img/9.jpg
-importance: 2
-category: work
+title: Pet Food Dispenser
+description: a project with a background image and giscus comments
+img: assets/img/3.jpg
+importance: 4
+category: 
 giscus_comments: true
 ---
 

@@ -4,6 +4,6 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - HaozhenZ11/IRef-VLA
+  - HaochenZ11/IRef-VLA
   - HaochenZ11/VLA-3D
   - AUBVRL/pothole-detection-avoidance-agv
