@@ -11,6 +11,7 @@ profile:
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+latest_posts: false
 ---
 
 I am a first year Master's of Science in Robotics student at the [Robotics Institute](https://www.ri.cmu.edu), within the [School of Computer Science](https://www.cs.cmu.edu/) at [Carnegie Mellon University](https://www.cmu.edu/). I conduct research as part of the [Field Robotics Center](https://frc.ri.cmu.edu/) in collaboration with the [AirLab](https://theairlab.org/), co-advised by [Ji Zhang](https://frc.ri.cmu.edu/~zhangji/) and [Wenshan Wang](http://www.wangwenshan.com/). I am currently doing research in embodied AI and vision-and-language navigation and planning.
