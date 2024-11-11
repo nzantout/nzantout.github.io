@@ -1,14 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - nzantout
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - HaozhenZ11/IRef-VLA
+  - HaochenZ11/VLA-3D
+  - AUBVRL/pothole-detection-avoidance-agv
