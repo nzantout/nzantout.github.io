@@ -5,5 +5,6 @@ description: A simple implementation of neural radiance fields (NeRFs) and neura
 img: assets/img/nerf.gif
 importance: 2
 category: 
+permalink: /NeRF-and-NeRS
 ---
 

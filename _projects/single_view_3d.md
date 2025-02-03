@@ -5,5 +5,6 @@ description: An implementation of various deep learning models that predict voxe
 img: assets/img/singleview3d.gif
 importance: 2
 category: 
+permalink: /single-view-3d
 ---
 
